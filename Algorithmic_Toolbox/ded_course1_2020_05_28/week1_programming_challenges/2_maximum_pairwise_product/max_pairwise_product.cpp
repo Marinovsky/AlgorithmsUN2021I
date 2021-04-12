@@ -15,9 +15,9 @@ int MaxPairwiseProduct(const std::vector<int>& numbers) {
 
     return max_product;
 }
-int MaxPairwiseProductF(const std::vector<int>& numbers) {
+long long MaxPairwiseProductF(const std::vector<int>& numbers) {
     int n = numbers.size();
-    int big1=0;int big2=0;
+    long long big1=0;long long big2=0;
     long long max_product;
     for(int i=0; i<n;i++){
         if(numbers[i]>big1){
